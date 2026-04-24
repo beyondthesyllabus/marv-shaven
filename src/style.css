@@ -889,6 +889,11 @@ footer {
     letter-spacing: -1px;
   }
 
+  .hero::before {
+    background-position: 80% center;
+    filter: blur(2px);
+  }
+
   .hero-content p {
     font-size: 18px;
     margin-bottom: 30px;
